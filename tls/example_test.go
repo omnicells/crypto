@@ -5,7 +5,7 @@
 package tls_test
 
 import (
-	"github.com/CapacitorSet/ja3-server/crypto/tls"
+	"github.com/omnicells/crypto/internal/cipherhw"
 	"crypto/x509"
 	"log"
 	"net/http"
