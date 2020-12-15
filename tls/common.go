@@ -21,8 +21,8 @@ import (
 	"strings"
 	"sync"
 	"time"
-
-	"github.com/CapacitorSet/ja3-server/crypto/internal/cipherhw"
+	
+	"github.com/omnicells/crypto/internal/cipherhw"
 )
 
 const (
