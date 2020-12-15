@@ -86,8 +86,8 @@ const (
 	extensionALPN                uint16 = 16
 	extensionSCT                 uint16 = 18 // https://tools.ietf.org/html/rfc6962#section-6
 	extensionSessionTicket       uint16 = 35
-	extensionNextProtoNeg        uint16 = 40 // not IANA assigned
-	extensionRenegotiationInfo   uint16 = 45
+	extensionNextProtoNeg        uint16 = 13172 // not IANA assigned		extensionNextProtoNeg        uint16 = 40 // not IANA assigned
+	extensionRenegotiationInfo   uint16 = 0xff01
 )
 
 // TLS signaling cipher suite values
