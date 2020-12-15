@@ -5,7 +5,7 @@
 package tls_test
 
 import (
-	"github.com/omnicells/crypto/internal/cipherhw"
+	"github.com/omnicells/internal/cipherhw"
 	"crypto/x509"
 	"log"
 	"net/http"

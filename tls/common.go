@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 	
-	"github.com/omnicells/crypto/internal/cipherhw"
+	"github.com/omnicells/internal/cipherhw"
 )
 
 const (
