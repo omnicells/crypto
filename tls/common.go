@@ -21,7 +21,7 @@ import (
 	"strings"
 	"sync"
 	"time"
-	
+
 	"github.com/omnicells/internal/cipherhw"
 )
 
@@ -292,14 +292,14 @@ type ClientHelloInfo struct {
 }
 
 type ClientTLSInfo struct {
-	RemoteAddress      string
-	SNI                string
-	Supported_Verisons []uint16
-	Cipher_Suites      []uint16
-	Supported_Curves   []CurveID
-	Extensions         []uint16
-	Verison            uint16
-	Fingerprint_ID     string
+	Remote_Address         string
+	Server_Name_Indication string
+	Supported_Verisons     []uint16
+	Cipher_Suites          []uint16
+	Supported_Curves       []CurveID
+	Extensions             []uint16
+	Verison                uint16
+	Fingerprint_ID         string
 }
 
 func (c *ClientHelloInfo) TLSFingerPrint() string {
